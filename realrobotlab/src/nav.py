@@ -23,11 +23,7 @@ class MultiNav():
                        'ABORTED', 'REJECTED','PREEMPTING', 'RECALLING',   
                        'RECALLED','LOST']  
   
-        # Set up the goal locations. Poses are defined in the map frame.  
-        # An easy way to find the pose coordinates is to point-and-click  
-        # Nav Goals in RViz when running in the simulator.  
-        # Pose coordinates are then displayed in the terminal  
-        # that was used to launch RViz.  
+        
         locations = dict()  
         
 
