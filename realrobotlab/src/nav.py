@@ -34,12 +34,12 @@ class MultiNav():
         #locations['home_origin'] = Pose(Point(0, 0, 0), Quaternion(0.000, 0.000, 0.000, 0.000))  
        
         #locations['home_bedroom'] = Pose(Point(3.40, 2.26, 0.00), Quaternion(0.000, 0.000, 0.00143, 0.00143))  
-        locations['position_1'] = Pose(Point(3.42, 2.46, 0.00247), Quaternion(0.000, 0.000, 0.000, 1.000))  
-        locations['position_2'] = Pose(Point(6.31, 5.05, 0.00247), Quaternion(0.000, 0.000, 0.000, 1.000))  
-        locations['position_3'] = Pose(Point(1.93, 8.28, 0.00247), Quaternion(0.000, 0.000, 0.000, 1.000))  
-        locations['position_4'] = Pose(Point(-1.53, 10.3, 0.00247), Quaternion(0.000, 0.000, 1.000, 0.000)) 
-        locations['position_5'] = Pose(Point(-1.52, 5.95, -0.00534), Quaternion(0.000, 0.000, 0.000, 1.000))
-        locations['position_6'] = Pose(Point(2.02, 3.6, 0.00247), Quaternion(0.000, 0.000, 0.000, 1.000)) 
+        locations['position_1'] = Pose(Point(3.42, 2.46, 0.00), Quaternion(0.000, 0.000, 0.000, 1.000))  
+        locations['position_2'] = Pose(Point(6.31, 5.05, 0.00), Quaternion(0.000, 0.000, 0.000, 1.000))  
+        locations['position_3'] = Pose(Point(1.93, 8.28, 0.00), Quaternion(0.000, 0.000, 0.000, 1.000))  
+        locations['position_4'] = Pose(Point(-1.53, 10.3, 0.00), Quaternion(0.000, 0.000, 1.000, 0.000)) 
+        locations['position_5'] = Pose(Point(-1.52, 5.95, 0.00), Quaternion(0.000, 0.000, 0.000, 1.000))
+        locations['position_6'] = Pose(Point(2.02, 3.6, 0.00), Quaternion(0.000, 0.000, 0.000, 1.000)) 
 
  
         # Publisher to manually control the robot (e.g. to stop it)  
