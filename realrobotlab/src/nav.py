@@ -38,10 +38,10 @@ class MultiNav():
         locations['position_6'] = Pose(Point(2.02, 3.6, 0.00), Quaternion(0.000, 0.000, 0.000, 1.000)) 
 
  
-        # Publisher to manually control the robot (e.g. to stop it)  
+          
         self.cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=5)  
   
-        # Subscribe to the move_base action server  
+    
         self.move_base = actionlib.SimpleActionClient("move_base", MoveBaseAction)  
         rospy.loginfo("Waiting for move_base action server...")  
   
